@@ -345,7 +345,7 @@ API Authorization Requests Code: ``GET /oauth/authorize`` (non standard /oauth/a
 *Notes about this API*
 
 * The client must have autoapprove=true, or you will not get a code back
-* If the client doesn't have a redirect_uri registered, it is an required parameter of the request
+* If the client doesn't have a redirect_uri registered, it is a required parameter of the request
 * The token must have scope "uaa.user" in order for this request to succeed
 
 *Sample curl commands for this flow*
